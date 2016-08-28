@@ -1,3 +1,15 @@
+/****************************************************************************************
+ *											*
+ *	Author		:	Yash , Atin , Shaurya , Nipun 				*
+ *	File name 	:	sim-85.cpp						*
+ *	Description	:	This sofware is a virtual simulator for the 		*
+ *				processor 8085.	The input is in the form of txt		*
+ *				file[Default 8085_default.txt] input is in the form 	*
+ *				of assembly code  for Intel Processor 8085.The sole	*
+ *				purpose of this software is to help people get their	*
+ *				hands dirty with the processor 8085.			*
+ *											*
+ ****************************************************************************************/
 #include <fstream>
 #include <string>
 #include<iostream>
