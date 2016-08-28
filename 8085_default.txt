@@ -1,0 +1,24 @@
+#BEGIN 0000
+
+	   MVI D , 05	
+W: 	   LXI H , C020
+	   MVI C , 05	
+X:	   MOV A , M
+	   INX H
+	   MOV B , M
+	   CMP B
+	   JC Y
+	   MOV M , A
+	   DCX H
+	   MOV M , B
+	   INX H
+
+Y:	   DCR C
+	   JNZ X
+	   DCR D
+	   JNZ W
+	   HLT
+
+#ORG C020
+#DB 6
+4E 51 E1 F0 10 01
