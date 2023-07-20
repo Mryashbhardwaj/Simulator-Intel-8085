@@ -1,11 +1,2 @@
-# coa-project
+# Simulator-Intel-8085
 This is a graphical emulator for Intel Processor 8085
-
-project members :
-
-yash 
-atin 
-shaurya
-nipun 
-abhishek
-
